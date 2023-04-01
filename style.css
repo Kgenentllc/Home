@@ -1,0 +1,61 @@
+body {
+  background-color: burlywood;
+  color: blue;
+  margin: 10%;
+}
+IMG {
+  float: left;
+  margin: 20px;
+  padding-bottom: 5vh;
+}
+H1 {
+  font-size: 54px;
+  text-align: center;
+  font-family: Papyrus;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  font-family: Papyrus;
+}
+
+A {
+  color: antiquewhite;
+  text-decoration: underline;
+  font-family: sans-serif;
+  padding: 15px;
+  border: 3px SOLID blue;
+  text-align: center;
+}
+
+A:hover {
+  color: RED;
+  background-color: chartreuse;
+}
+
+.CENTER {
+  text-align: center;
+}
+
+footer {
+  margin-top: 10vh;
+}
+
+
+@media only screen and (max-width: 650px) {
+  h1 {
+    font-size: 2rem;
+    background-color: blueviolet;
+  }
+  h3 {
+    display: none;
+  }
+  img {
+    float: none;
+    width: 100%;
+  }
+  #about {
+    height: 10vh;
+  }
+}
