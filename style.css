@@ -46,7 +46,7 @@ footer {
 @media only screen and (max-width: 650px) {
   h1 {
     font-size: 2rem;
-    background-color: blueviolet;
+   
   }
   h3 {
     display: none;
